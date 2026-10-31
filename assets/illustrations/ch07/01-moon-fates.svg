@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<title id="title">三月的戰後去向</title>
+<desc id="desc">三項並列：恆月與虹月破碎，霜月移至虛假之天以外。依第七章第一節整理的關係示意。</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#172838"/><stop offset="1" stop-color="#233c48"/></linearGradient>
+ <linearGradient id="moon" x2="1" y2="1"><stop stop-color="#f3e4c0"/><stop offset="1" stop-color="#8d9c9c"/></linearGradient>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="none" stroke="#ba9f70" stroke-width="1.4"/></marker>
+</defs>
+<rect width="1000" height="600" rx="12" fill="url(#bg)"/>
+<rect x="16" y="16" width="968" height="568" rx="6" fill="none" stroke="#a88c52"/>
+<g font-family="'Noto Serif CJK TC','Microsoft JhengHei',serif">
+ <text x="52" y="77" font-size="34" fill="#cdb78d" letter-spacing="4">三月體系</text>
+ <path d="M250 66 H943" stroke="#9e8760" stroke-width="1"/>
+ <g>
+  <rect x="42" y="110" width="916" height="130" rx="8" fill="#24394a" stroke="#51606a"/>
+  <path d="M132 143 A34 34 0 1 0 132 207 L120 188 L135 169Z" fill="url(#moon)"/>
+  <path d="M146 140 A34 34 0 0 1 149 199 L142 180 L151 162Z" fill="#c5b98e"/>
+  <text x="218" y="190" font-size="46" fill="#f1e6cf">恆月</text>
+  <path d="M364 175 H472" stroke="#ba9f70" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="520" y="190" font-size="42" fill="#f1e6cf">天體破碎</text>
+ </g>
+ <g>
+  <rect x="42" y="260" width="916" height="130" rx="8" fill="#24394a" stroke="#51606a"/>
+  <path d="M132 293 A34 34 0 1 0 132 357 L120 338 L135 319Z" fill="url(#moon)"/>
+  <path d="M146 290 A34 34 0 0 1 149 349 L142 330 L151 312Z" fill="#c5b98e"/>
+  <text x="218" y="340" font-size="46" fill="#f1e6cf">虹月</text>
+  <path d="M364 325 H472" stroke="#ba9f70" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="520" y="340" font-size="42" fill="#f1e6cf">天體破碎</text>
+ </g>
+ <g>
+  <rect x="42" y="410" width="916" height="145" rx="8" fill="#2a424c" stroke="#8fa3a4"/>
+  <circle cx="130" cy="482" r="35" fill="url(#moon)"/>
+  <circle cx="130" cy="482" r="47" fill="none" stroke="#819d9c" stroke-width="1"/>
+  <text x="218" y="498" font-size="46" fill="#f1e6cf">霜月</text>
+  <path d="M364 482 H472" stroke="#ba9f70" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="520" y="477" font-size="40" fill="#f1e6cf">移至天外</text>
+  <text x="520" y="522" font-size="29" fill="#c0d0cc">虛假之天以外</text>
+ </g>
+</g></svg>

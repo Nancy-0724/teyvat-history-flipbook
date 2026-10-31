@@ -1,7 +1,7 @@
 {
-  "version": "V0.11",
+  "version": "V0.14",
   "kind": "game-screenshot-alternatives",
-  "note": "第一至第五章正文；18組映射（16 active、2 staged）。圖蘭、三月、四影圖解固定保留。新增第五章三個來源圖位；本包未封裝第三方圖檔，連網載入或執行下載工具後可顯示，失敗時明示提示卡。",
+  "note": "保留 V0.13 全部既有來源與 local 路徑；第七章新增天釘截圖圖位。天釘圖本次未下載成功，使用缺圖提示；兩張新關係圖可離線閱讀。",
   "images": [
     {
       "id": "four-shades",
@@ -287,6 +287,55 @@
         "https://blog.ja.playstation.com/uploads/sites/7/2026/05/970ef3790a77457a9c5b3bbca53bed2a971c4ca1-scaled.jpg"
       ],
       "source_note": "只作人物辨識，不以展示場景或服飾重建創世年代。",
+      "placement": "active",
+      "fallback_only": true,
+      "packaged": false
+    },
+    {
+      "id": "apep-ch06",
+      "chapter": 6,
+      "figure": "assets/illustrations/ch06/01-apep.svg",
+      "local": "assets/game-media/ch02/apep.png",
+      "caption": "圖 6-1｜阿佩普",
+      "credit": "《原神》納西妲傳說任務第二幕，阿佩普本體劇情畫面",
+      "source_page": "https://genshin-impact.fandom.com/wiki/Apep",
+      "urls": [
+        "https://d1tgyzt3mf06m9.cloudfront.net/v3-staging/2023/11/7-naga-di-genshin-impact-apep.png",
+        "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/NPC_Apep.png/revision/latest/scale-to-width-down/1200?cb=20230412051942"
+      ],
+      "placement": "active",
+      "packaged": false,
+      "source_note": "沿用既有來源與本機檔案；畫面供對象辨識，非遠古戰爭現場。"
+    },
+    {
+      "id": "three-moons-ch06",
+      "chapter": 6,
+      "figure": "assets/illustrations/ch06/02-three-moons.svg",
+      "local": "assets/game-media/ch02/three-moons.jpg",
+      "caption": "圖 6-2｜三月女神",
+      "credit": "《原神》世界任務〈最初的那抹月光〉遊戲畫面，玩家截圖",
+      "source_page": "https://www.hoyolab.com/article/45245331",
+      "urls": [
+        "https://upload-os-bbs.hoyolab.com/upload/2026/05/28/309635118/7331f676e01ed1d8897f2d5c3a770a83_1940841479560483444.webp?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+        "https://pbs.twimg.com/media/HJtqv69bAAAv_w1.jpg"
+      ],
+      "placement": "active",
+      "packaged": false,
+      "source_note": "沿用既有來源與本機檔案；畫面供對象辨識，非遠古戰爭現場。"
+    },
+    {
+      "id": "celestial-nail-ch07",
+      "chapter": 7,
+      "figure": "assets/illustrations/ch07/02-celestial-nail-source.svg",
+      "local": "assets/game-media/ch07/celestial-nail.jpg",
+      "caption": "圖 7-2｜天釘",
+      "credit": "《原神》遊戲畫面；GamesRadar+ 攻略收錄。遊戲素材 © HoYoverse。",
+      "source_page": "https://www.gamesradar.com/genshin-impact-spiritstone-quest/",
+      "source_type": "媒體攻略收錄的遊戲截圖",
+      "urls": [
+        "https://cdn.mos.cms.futurecdn.net/v9hgstgGRFikBuFkYjksWA.jpg"
+      ],
+      "source_note": "沿用核定稿候選：層岩巨淵天釘畫面作器物辨識，並非須彌落釘現場；本次下載未成功，圖片尚未封裝。",
       "placement": "active",
       "fallback_only": true,
       "packaged": false

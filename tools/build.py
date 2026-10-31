@@ -33,11 +33,13 @@ BOOKMARK_MIGRATIONS = ROOT / 'data' / 'bookmark-migrations-v07.json'
 BOOKMARK_MIGRATIONS_OUTPUT = ROOT / 'js' / 'bookmark-migrations.js'
 OUTPUT = ROOT / 'js' / 'generated-content.js'
 CATALOG_JS = ROOT / 'js' / 'book-data.js'
+SOURCE_INDEX_PATH = ROOT / 'data/chapter-source-index.json'
+SOURCE_INDEX = json.loads(SOURCE_INDEX_PATH.read_text(encoding='utf-8')).get('chapters', {}) if SOURCE_INDEX_PATH.is_file() else {}
 VALID_STATUSES = {'outline', 'draft', 'reviewed'}
 HEADING = re.compile(r'^(#{2,3})\s+(.+?)(?:\s+\{#([a-zA-Z][\w-]*)\})?\s*$')
 FIGURE = re.compile(r'^!\[([^\]]+)\]\((assets/[a-zA-Z0-9_./-]+\.(?:svg|png|jpe?g|webp|gif))\)(\{float\})?$')
 LIST = re.compile(r'^(?:\s*(-)\s+|\s*(\d+)\.\s+)(.+)$')
-INLINE = re.compile(r'(\[\[(\d{1,2})(?:\|([^\]]+))?\]\])|(\[([^\]]+)\]\((https?://[^\s)]+)\))|(\*\*([^*]+)\*\*)|(`([^`]+)`)')
+INLINE = re.compile(r'(\[\[(\d{1,2})(?:\|([^\]]+))?\]\])|(\[([^\]]+)\]\((https?://[^\s)]+)\))|(\*\*([^*]+)\*\*)|(`([^`]+)`)|(\[\^((?:c\d{2})-\d+)\])')
 
 
 def safe(s: str) -> str:
@@ -61,6 +63,12 @@ def inline(s: str) -> str:
             out.append(f'<strong>{safe(m.group(8))}</strong>')
         elif m.group(10):
             out.append(f'<code>{safe(m.group(10))}</code>')
+        elif m.group(12):
+            note_id = m.group(12)
+            cid, number = note_id.split('-')
+            out.append(f'<sup class="note-marker"><button type="button" class="book-note-ref" '
+                       f'data-note-chapter="{int(cid[1:])}" data-note-id="{safe(note_id)}" '
+                       f'aria-label="查看史料註釋 {int(number)}">{int(number)}</button></sup>')
         end = m.end()
     out.append(safe(s[end:]))
     return ''.join(out)
@@ -82,6 +90,31 @@ def parse_frontmatter(source: str, filename: str):
         key, value = line.split(':', 1)
         meta[key.strip()] = value.strip().strip('"').strip("'")
     return meta, lines[close + 1:]
+
+
+def extract_notes(lines: list[str], chapter_id: int):
+    """Move Markdown endnotes into modal metadata, not paginated prose."""
+    kept, notes = [], []
+    definition = re.compile(r'^\[\^((?:c\d{2})-\d+)\]:\s*(.*)$')
+    seen = set()
+    for row in lines:
+        m = definition.match(row.strip())
+        if not m:
+            kept.append(row)
+            continue
+        key, text = m.groups()
+        if key in seen or not key.startswith(f'c{chapter_id:02d}-'):
+            raise ValueError(f'Chapter {chapter_id}: duplicate or misplaced note {key}')
+        seen.add(key)
+        notes.append({'id': key, 'number': int(key.split('-')[1]), 'text': text, 'html': inline(text)})
+    refs = set(re.findall(r'\[\^((?:c\d{2})-\d+)\]', '\n'.join(kept)))
+    if refs - seen:
+        raise ValueError(f'Chapter {chapter_id}: undefined notes {refs - seen}')
+    if seen - refs:
+        raise ValueError(f'Chapter {chapter_id}: unreferenced notes {seen - refs}')
+    if notes:
+        kept.extend(['', ':::references', ''])
+    return kept, notes
 
 
 def parse_markdown(lines: list[str], chapter_id: int, used_images: set[str]):
@@ -145,6 +178,10 @@ def parse_markdown(lines: list[str], chapter_id: int, used_images: set[str]):
                 cls += ' ch04-figure'
             if chapter_id == 5 and image_path.startswith('assets/illustrations/ch05/'):
                 cls += ' ch05-figure'
+            if chapter_id == 6 and image_path.startswith('assets/illustrations/ch06/'):
+                cls += ' ch06-figure'
+            if chapter_id == 7 and image_path.startswith('assets/illustrations/ch07/'):
+                cls += ' ch07-figure'
             if GAME_MEDIA_FIGURES.get(image_path) in {'naberius','ronova','istaroth','asmoday'}:
                 cls += ' shade-portrait'
             src = './' + image_path
@@ -202,6 +239,14 @@ def parse_markdown(lines: list[str], chapter_id: int, used_images: set[str]):
             rendered = (f'<figure class="page-figure ch{chapter_id:02d}-figure media-pair"><div class="media-grid">'
                 + ''.join(tiles) + f'</div><figcaption>{safe(display_gallery_caption)}</figcaption></figure>')
             push('figure', '\n'.join(raw_gallery), rendered)
+            i += 1
+            continue
+        if row == ':::references':
+            add_para(para)
+            para = []
+            push('references', row, f'<p class="chapter-notes-link"><button type="button" '
+                 f'class="chapter-notes-open" data-note-chapter="{chapter_id}" '
+                 f'aria-haspopup="dialog">本章史料與註釋 <span aria-hidden="true">↗</span></button></p>')
             i += 1
             continue
         if row.startswith(':::'):
@@ -308,11 +353,13 @@ def main():
             updated = meta.get('updated', '')
             if updated:
                 date.fromisoformat(updated)
+            lines, notes = extract_notes(lines, chapter_id)
             blocks = parse_markdown(lines, chapter_id, used_images)
             if not blocks:
                 raise ValueError(f'{path}: empty chapter; use an outline placeholder instead')
             output[str(chapter_id)] = {
                 'status':status, 'updated':updated, 'blocks':blocks,
+                **({'notes': notes, 'sourceHtml': [inline(p) for p in SOURCE_INDEX.get(str(chapter_id), [])]} if notes else {}),
                 'sections':[{'id':b['sectionId'],'title':re.sub(r'<[^>]+>','',b['html'])}
                             for b in blocks if b['kind'] == 'heading'],
             }

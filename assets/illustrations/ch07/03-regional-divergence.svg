@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
+<title id="title">舊秩序的分化</title>
+<desc id="desc">三項並列影響：三月體系瓦解後信仰與權能延續；土地隔離與環境劇變造成生存條件分化；天使教化衰落後各地重構庇護。這是主題比較，並非同年發生的單線年表。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="none" stroke="#b89f73" stroke-width="1.4"/></marker></defs>
+<rect width="1000" height="650" rx="12" fill="#172838"/>
+<rect x="16" y="16" width="968" height="618" rx="6" fill="none" stroke="#a88c52"/>
+<g font-family="'Noto Serif CJK TC','Microsoft JhengHei',serif">
+<text x="50" y="77" font-size="33" fill="#cdb78d" letter-spacing="3">共同危機・地域分化</text>
+<path d="M424 66 H948" stroke="#9e8760"/>
+<g>
+ <rect x="43" y="110" width="914" height="155" rx="8" fill="#24394a" stroke="#54636c"/>
+ <text x="69" y="156" font-size="30" fill="#cdb78d">天體與庇護</text>
+ <text x="69" y="222" font-size="39" fill="#f1e6cf">三月體系瓦解</text>
+ <path d="M370 207 H469" stroke="#b89f73" stroke-width="2" marker-end="url(#arrow)"/>
+ <text x="508" y="222" font-size="38" fill="#f1e6cf">信仰與權能延續</text>
+</g>
+<g>
+ <rect x="43" y="285" width="914" height="155" rx="8" fill="#2d3c43" stroke="#54636c"/>
+ <text x="69" y="331" font-size="30" fill="#cdb78d">環境與聚居</text>
+ <text x="69" y="391" font-size="35" fill="#f1e6cf">土地隔離・環境劇變</text>
+ <path d="M414 382 H469" stroke="#b89f73" stroke-width="2" marker-end="url(#arrow)"/>
+ <text x="508" y="397" font-size="38" fill="#f1e6cf">生存條件分化</text>
+</g>
+<g>
+ <rect x="43" y="460" width="914" height="155" rx="8" fill="#283d45" stroke="#54636c"/>
+ <text x="69" y="506" font-size="30" fill="#cdb78d">教化與重建</text>
+ <text x="69" y="572" font-size="39" fill="#f1e6cf">天使教化衰退</text>
+ <path d="M370 557 H469" stroke="#b89f73" stroke-width="2" marker-end="url(#arrow)"/>
+ <text x="508" y="572" font-size="38" fill="#f1e6cf">地方庇護重構</text>
+</g>
+</g></svg>

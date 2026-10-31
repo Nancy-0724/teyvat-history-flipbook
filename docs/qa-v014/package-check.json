@@ -1,0 +1,8 @@
+{
+  "base_zip_sha256": "c8fc0a8af25557c03e7e7210c7ad3092ae1a5a56a2b81f6721bbf4dd1cf1f23f",
+  "base_archive_integrity_ok": true,
+  "all_original_paths_preserved": true,
+  "public_output_matches_sources": true,
+  "no_font_files_shared": true,
+  "patch_mode": "Add/overwrite changed relative paths only; no delete instructions; user image files remain untouched."
+}

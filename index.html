@@ -13,7 +13,7 @@
     <section class="home" id="home" aria-labelledby="home-title">
       <header class="home-nav">
         <div class="wordmark"><span class="wordmark-mark">✥</span><span>提瓦特通史 <small>THE HISTORY OF TEYVAT</small></span></div>
-        <span class="small-tag">數位典籍 · 逐章增補版 V0.12</span>
+        <span class="small-tag">數位典籍 · 逐章增補版 V0.14</span>
       </header>
       <div class="hero">
         <div class="hero-copy">
@@ -27,7 +27,7 @@
             <button type="button" class="outline-btn" id="jump-outline">查看八大篇章 <span>↓</span></button>
           </div>
           <div class="hero-stats"><span>01 <b>本完整典籍</b></span><i></i><span>08 <b>篇歷史主題</b></span><i></i><span>60 <b>章內容架構</b></span></div>
-          <p class="home-notice">非官方歷史研究・第一至第五章已收錄歷史正文與原創插圖（草稿），其餘章節依序編纂。</p>
+          <p class="home-notice">非官方歷史研究・第一至第七章已收錄歷史正文與插圖（草稿），其餘章節依序編纂。</p>
         </div>
         <div class="hero-book-area" aria-hidden="true">
           <div class="halo"></div>
@@ -93,6 +93,10 @@
         </aside>
       </div>
 
+      <dialog id="source-notes-dialog" class="source-notes-dialog" aria-labelledby="source-notes-title">
+        <header class="source-notes-header"><div><small>HISTORICAL SOURCES</small><h2 id="source-notes-title">史料與註釋</h2></div><button type="button" id="source-notes-close" aria-label="關閉史料註釋">×</button></header>
+        <div id="source-notes-content" class="source-notes-content"></div>
+      </dialog>
       <div class="picture-layer" id="picture-layer" hidden role="dialog" aria-modal="true" aria-label="檢視圖表">
         <button type="button" class="picture-dismiss" id="picture-dismiss" aria-label="關閉放大圖片">×</button>
         <figure><img id="picture-large" alt=""><figcaption id="picture-caption"></figcaption><div id="picture-source" class="picture-source"></div></figure>
@@ -107,6 +111,7 @@
   <script defer src="./js/bookmark-migrations.js"></script>
   <script defer src="./js/reader.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.min.js"></script>
+  <script defer src="./js/notes.js"></script>
   <script defer src="./js/app.js"></script>
 </body>
 </html>

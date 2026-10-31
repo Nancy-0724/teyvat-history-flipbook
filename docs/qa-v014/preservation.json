@@ -1,0 +1,42 @@
+{
+  "version": "V0.14",
+  "date": "2026-11-01",
+  "base": "V0.13",
+  "approved_source_sha256": "cd6453d04cd115e4c988b9477d219226afacacc19be9c6adf58b4d06a6d5bdaa",
+  "changed_chapters": [
+    "content/part-01/chapter-07.md"
+  ],
+  "approved_paragraphs": 13,
+  "approved_notes": 9,
+  "source_file_archived_exactly": true,
+  "media_download": {
+    "attempted_url": "https://cdn.mos.cms.futurecdn.net/v9hgstgGRFikBuFkYjksWA.jpg",
+    "success": false,
+    "reason": "Download tool failed; HTTPS client failed DNS resolution."
+  },
+  "paragraphs_identical": true,
+  "notes_text_identical": true,
+  "notes_link_formatting_only": true,
+  "unchanged_chapters": 59,
+  "unchanged_original_SVGs": 47,
+  "unchanged_pages_workflow": true,
+  "unchanged_original_source_mappings": 20,
+  "unchanged_existing_figure_presentations": true,
+  "unchanged_original_redirects": true,
+  "new_block_redirects": 5,
+  "new_section_redirects": 1,
+  "counts": {
+    "chapters": 60,
+    "draft": 7,
+    "outline": 53,
+    "blocks": 458,
+    "notes": 43,
+    "figure_groups": 28,
+    "zoom_images": 29,
+    "svg_assets": 50,
+    "media_mappings": 21,
+    "media_active": 19,
+    "block_redirects": 674,
+    "section_redirects": 72
+  }
+}

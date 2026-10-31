@@ -1,7 +1,7 @@
 {
-  "version": "V0.10",
+  "version": "V0.14",
   "sourceVersion": "V0.7",
-  "note": "保留 V0.7–V0.10 全部舊轉向；V0.11 新增圖2-6修訂及第五章圖像註記的同節轉向。",
+  "note": "保留 V0.13 全部既有轉向；新增第七章綱要至核定正文的同章定位，不假定已刪除綱要的原字元位置仍存在。",
   "bySection": {
     "1:ch01-start": {
       "chapterId": 1,
@@ -278,6 +278,18 @@
     "5:ch05-todo": {
       "chapterId": 5,
       "sectionId": "ch05-outline"
+    },
+    "6:ch06-todo": {
+      "chapterId": 6,
+      "sectionId": "ch06-outline"
+    },
+    "6:ch06-return": {
+      "chapterId": 6,
+      "sectionId": "ch06-outline"
+    },
+    "7:ch07-todo": {
+      "chapterId": 7,
+      "sectionId": "ch07-outline"
     }
   },
   "byBlock": {
@@ -2280,11 +2292,707 @@
     "c05-bb745ec0608f-1": {
       "chapterId": 5,
       "sectionId": "ch05-sources"
+    },
+    "c01-160a36c4e748-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-origins"
+    },
+    "c01-774c1d7e7fd9-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-primordial-sea"
+    },
+    "c01-6ab875cd1684-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-primordial-sea"
+    },
+    "c01-8bda74a5544d-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-primordial-sea"
+    },
+    "c01-e20875c37757-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-life-expansion"
+    },
+    "c01-1e003df2404c-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-life-expansion"
+    },
+    "c01-90e27f94ac28-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-elemental-life"
+    },
+    "c01-9ec1152e2c94-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-elemental-life"
+    },
+    "c01-65c1b949ef4b-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-hydro-dragon"
+    },
+    "c01-b4aa64cb1653-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-hydro-dragon"
+    },
+    "c01-18b876ddeb2f-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-dragon-emergence"
+    },
+    "c01-6f1976aaa712-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-dragon-emergence"
+    },
+    "c01-a324a2fa85c2-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-sources"
+    },
+    "c01-c06a5b710113-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-sources"
+    },
+    "c01-8317d2b6cd79-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-sources"
+    },
+    "c01-5d27295a4feb-1": {
+      "chapterId": 1,
+      "sectionId": "ch01-sources"
+    },
+    "c02-4df1bec40a59-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-kingship"
+    },
+    "c02-aa26342d8666-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-seven-sovereigns"
+    },
+    "c02-c33fcda5321c-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-seven-sovereigns"
+    },
+    "c02-bade9faacdcf-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-seven-sovereigns"
+    },
+    "c02-80f0c9edec6d-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-territories"
+    },
+    "c02-2561cbcc99e3-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-territories"
+    },
+    "c02-612afb1658a0-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-territories"
+    },
+    "c02-4b87b2a37cb1-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-nibelung"
+    },
+    "c02-39bbab563c2b-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-nibelung"
+    },
+    "c02-01deb978ffb7-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-xiuhcoatl"
+    },
+    "c02-6a4ef3f6deb6-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-xiuhcoatl"
+    },
+    "c02-2d98e129d924-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-xiuhcoatl"
+    },
+    "c02-239bdcd52acd-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-dragonkin"
+    },
+    "c02-e0fbeec2e91c-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-dragonkin"
+    },
+    "c02-b4088ed8e314-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-dragonkin"
+    },
+    "c02-4dbdf6faccdb-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-dragonkin"
+    },
+    "c02-b877a4112f84-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-phlogiston"
+    },
+    "c02-cb0aa1dc1ac6-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-phlogiston"
+    },
+    "c02-3d5eedd94ac8-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-phlogiston"
+    },
+    "c02-51d9de74937b-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-phlogiston"
+    },
+    "c02-dd9aedc1fa43-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-sky-engineering"
+    },
+    "c02-80e6dcec53b2-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-sky-engineering"
+    },
+    "c02-472459c92827-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-sky-engineering"
+    },
+    "c02-208bffe772f6-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-sky-engineering"
+    },
+    "c02-ab81a4644f1c-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-star-witness"
+    },
+    "c02-4f53e7f62775-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-star-witness"
+    },
+    "c02-5167db9b96de-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-cosmic-threat"
+    },
+    "c02-aadecb74964a-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-cosmic-threat"
+    },
+    "c02-5b5d498acf86-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-cosmic-threat"
+    },
+    "c02-8efe87223af7-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-cosmic-threat"
+    },
+    "c02-3d03e03f8c2b-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-decision"
+    },
+    "c02-f3064d0a1f40-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-moon-creation"
+    },
+    "c02-d0d33c81dad8-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-moon-creation"
+    },
+    "c02-d00f87d6d658-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-moon-sisters"
+    },
+    "c02-adda8b2a890f-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-moon-sisters"
+    },
+    "c02-5023b8c97d60-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-moon-sisters"
+    },
+    "c02-d93146abe6b6-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-moon-sisters"
+    },
+    "c02-26955785e642-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-moon-sisters"
+    },
+    "c02-cc2b40e1c519-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-moon-sisters"
+    },
+    "c02-a98481d0b62c-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-moon-duties"
+    },
+    "c02-5f0d575172a4-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-moon-duties"
+    },
+    "c02-e6e725a92d05-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-celestial-journey"
+    },
+    "c02-97d6dc8ae364-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-celestial-journey"
+    },
+    "c02-60c0d75c431a-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-long-wait"
+    },
+    "c02-0a1b7a7d31f2-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-long-wait"
+    },
+    "c02-c3d0ab3a7d5d-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-long-wait"
+    },
+    "c02-729bbfac4203-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-timeline"
+    },
+    "c02-3d141ae0a8d7-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-timeline"
+    },
+    "c02-2c17ded89a38-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-sources"
+    },
+    "c02-9d9985a9b24d-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-sources"
+    },
+    "c02-fec1f7f38dc5-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-sources"
+    },
+    "c02-fa2a52791f32-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-sources"
+    },
+    "c02-ce0a23d051df-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-sources"
+    },
+    "c02-446fdc6e89c2-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-sources"
+    },
+    "c02-e65c3fc3c9f7-1": {
+      "chapterId": 2,
+      "sectionId": "ch02-sources"
+    },
+    "c03-3756bcd7f681-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-outline"
+    },
+    "c03-37832b0e4719-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-arrival"
+    },
+    "c03-47c536351463-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-arrival"
+    },
+    "c03-aea138f8ba57-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-arrival"
+    },
+    "c03-a21139b4c8af-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-arrival"
+    },
+    "c03-cffa84fef075-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-moon-witnesses"
+    },
+    "c03-f11226aeb921-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-moon-witnesses"
+    },
+    "c03-fbec2824056c-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-first-throne-war"
+    },
+    "c03-650b627dfb61-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-first-throne-war"
+    },
+    "c03-8a8cb659e98c-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-first-throne-war"
+    },
+    "c03-259381f68f39-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-forty-years"
+    },
+    "c03-ea36a3010fa0-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-forty-years"
+    },
+    "c03-73c1582f4d71-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-forty-years"
+    },
+    "c03-5f29922896c4-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-seven-kingdoms"
+    },
+    "c03-b09a0a7fb85c-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-seven-kingdoms"
+    },
+    "c03-7ce6620f37af-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-seven-kingdoms"
+    },
+    "c03-8f75c915d567-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-seven-kingdoms"
+    },
+    "c03-b00666d559f5-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-elemental-authority"
+    },
+    "c03-fed0da24fee2-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-elemental-authority"
+    },
+    "c03-c5f104b35e09-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-elemental-authority"
+    },
+    "c03-f34182bf98c2-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-reshaping-begins"
+    },
+    "c03-2f33cdf3cb5c-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-reshaping-begins"
+    },
+    "c03-307213976f51-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-timeline"
+    },
+    "c03-7ef507d0e688-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-timeline"
+    },
+    "c03-70344a22fbd6-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-sources"
+    },
+    "c03-f806ee677ea2-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-sources"
+    },
+    "c03-c2c637aa3e30-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-sources"
+    },
+    "c03-cb0eec232215-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-sources"
+    },
+    "c03-88091cd66f40-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-sources"
+    },
+    "c03-9a87681e9b4e-1": {
+      "chapterId": 3,
+      "sectionId": "ch03-sources"
+    },
+    "c04-eaae1f8925b8-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-outline"
+    },
+    "c04-f5723cebce29-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-outline"
+    },
+    "c04-0eaf357efe51-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-outline"
+    },
+    "c04-9b8c31caf359-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-outline"
+    },
+    "c04-25f564c82a36-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-naberius"
+    },
+    "c04-45393d3a90dc-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-naberius"
+    },
+    "c04-a7bc15a9bc2d-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-naberius"
+    },
+    "c04-c946c5014e9a-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-ronova"
+    },
+    "c04-76683febcd47-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-ronova"
+    },
+    "c04-005b65b2d47e-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-ronova"
+    },
+    "c04-cbaebd043ada-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-ronova"
+    },
+    "c04-675002653ff3-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-istaroth"
+    },
+    "c04-2cf70f085726-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-istaroth"
+    },
+    "c04-85ab81a1e846-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-istaroth"
+    },
+    "c04-6c0e15cea74c-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-istaroth"
+    },
+    "c04-8e51d086bbd5-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-asmoday"
+    },
+    "c04-505e1c37a2ee-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-asmoday"
+    },
+    "c04-d9573adbae74-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-asmoday"
+    },
+    "c04-d3a6326281b5-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-rules"
+    },
+    "c04-51bc4c1ddd2f-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-rules"
+    },
+    "c04-d4c73b68bf93-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-rules"
+    },
+    "c04-178efe44a926-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-rules"
+    },
+    "c04-c845e8d3264a-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-sources"
+    },
+    "c04-33e5f2617276-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-sources"
+    },
+    "c04-73b1b4b9f2f8-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-sources"
+    },
+    "c04-e077cb111e12-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-sources"
+    },
+    "c04-330c74c2eef1-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-sources"
+    },
+    "c04-b27bf0a35151-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-sources"
+    },
+    "c04-d28a3f0e7e8f-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-sources"
+    },
+    "c04-8b6a69bc6653-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-sources"
+    },
+    "c04-d731b37d1a65-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-sources"
+    },
+    "c04-0b30a4554122-1": {
+      "chapterId": 4,
+      "sectionId": "ch04-sources"
+    },
+    "c05-1ef4edd79407-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-outline"
+    },
+    "c05-4e36ef208c6d-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-outline"
+    },
+    "c05-bf4673c4e17b-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-outline"
+    },
+    "c05-765e4caaec4e-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-outline"
+    },
+    "c05-6ce855091397-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-harvest"
+    },
+    "c05-160bff7338e5-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-harvest"
+    },
+    "c05-1f154360eb20-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-angels"
+    },
+    "c05-75f98fe89641-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-angels"
+    },
+    "c05-ebdca9144f4a-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-angels"
+    },
+    "c05-fd1485569f5b-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-angels"
+    },
+    "c05-2d908c112490-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-cities"
+    },
+    "c05-7673b779a210-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-cities"
+    },
+    "c05-a55ebd0c16fa-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-cities"
+    },
+    "c05-92f704ca8b9d-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-cities"
+    },
+    "c05-654959a2f74f-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-cities"
+    },
+    "c05-98ed2274dd2c-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-learning"
+    },
+    "c05-c6f297eab2e7-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-learning"
+    },
+    "c05-b5a006df0270-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-learning"
+    },
+    "c05-dcbfaa9bec6c-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-crown-lore"
+    },
+    "c05-ea1e1fb5d6f0-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-crown-lore"
+    },
+    "c05-4c29442e3339-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-crown-lore"
+    },
+    "c05-35af02a55bc9-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-mineral-lore"
+    },
+    "c05-e12f00fa744c-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-sources"
+    },
+    "c05-90e7341e1342-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-sources"
+    },
+    "c05-74c7929c960e-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-sources"
+    },
+    "c05-b29dfcfbba38-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-sources"
+    },
+    "c05-7d22561862b4-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-sources"
+    },
+    "c05-c87b1f6217b1-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-sources"
+    },
+    "c05-3fa8c8ffa338-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-sources"
+    },
+    "c05-7019b1c39a97-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-sources"
+    },
+    "c05-9959a2729995-1": {
+      "chapterId": 5,
+      "sectionId": "ch05-sources"
+    },
+    "c06-88523260434d-1": {
+      "chapterId": 6,
+      "sectionId": "ch06-outline"
+    },
+    "c06-7b700ea122dd-1": {
+      "chapterId": 6,
+      "sectionId": "ch06-outline"
+    },
+    "c06-669ef70753f5-1": {
+      "chapterId": 6,
+      "sectionId": "ch06-outline"
+    },
+    "c06-8222338925fc-1": {
+      "chapterId": 6,
+      "sectionId": "ch06-outline"
+    },
+    "c06-0fcc8382e683-1": {
+      "chapterId": 6,
+      "sectionId": "ch06-outline"
+    },
+    "c07-797a13667d5a-1": {
+      "chapterId": 7,
+      "sectionId": "ch07-outline"
+    },
+    "c07-e7d87f2ef33f-1": {
+      "chapterId": 7,
+      "sectionId": "ch07-outline"
+    },
+    "c07-669ef70753f5-1": {
+      "chapterId": 7,
+      "sectionId": "ch07-outline"
+    },
+    "c07-ee88cb8bc87b-1": {
+      "chapterId": 7,
+      "sectionId": "ch07-outline"
+    },
+    "c07-0fcc8382e683-1": {
+      "chapterId": 7,
+      "sectionId": "ch07-outline"
     }
   },
   "sourceVersions": [
     "V0.7",
     "V0.8"
   ],
-  "updated": "2026-10-31"
+  "updated": "2026-11-01"
 }

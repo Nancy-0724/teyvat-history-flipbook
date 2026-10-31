@@ -1,0 +1,3 @@
+{"viewport": "desktop", "checks": 190, "passed": true, "warnings": 0, "failed": []}
+{"viewport": "mobile", "checks": 190, "passed": true, "warnings": 0, "failed": []}
+{"viewport": "small-mobile", "checks": 190, "passed": true, "warnings": 0, "failed": []}
