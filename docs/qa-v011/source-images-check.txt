@@ -1,0 +1,30 @@
+{
+  "mode": "check",
+  "chapter": 5,
+  "available": 0,
+  "total": 3,
+  "results": [
+    {
+      "id": "angel-example",
+      "local": "assets/game-media/ch05/angel-example.jpg",
+      "exists": false,
+      "bytes": 0,
+      "sha256": null
+    },
+    {
+      "id": "ordinary-seelie",
+      "local": "assets/game-media/ch05/ordinary-seelie.png",
+      "exists": false,
+      "bytes": 0,
+      "sha256": null
+    },
+    {
+      "id": "nicole-reeyn",
+      "local": "assets/game-media/ch05/nicole-reeyn.jpg",
+      "exists": false,
+      "bytes": 0,
+      "sha256": null
+    }
+  ]
+}
+未成功的來源圖不算完成；可從來源頁合法另存至 local 路徑。第五章缺圖時顯示提示卡，不假裝是人物肖像。

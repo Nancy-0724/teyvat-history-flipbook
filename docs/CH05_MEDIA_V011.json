@@ -1,0 +1,18 @@
+{
+  "version": "V0.11",
+  "new_block_redirects": [
+    {
+      "oldBlockId": "c02-ce493dfd4333-1",
+      "chapterId": 2,
+      "sectionId": "ch02-timeline"
+    },
+    {
+      "oldBlockId": "c05-bb745ec0608f-1",
+      "chapterId": 5,
+      "sectionId": "ch05-sources"
+    }
+  ],
+  "images_packaged": false,
+  "media_groups_added": 2,
+  "individual_source_images_added": 3
+}

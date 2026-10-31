@@ -1,0 +1,168 @@
+{
+  "viewport": "desktop",
+  "mode": "Embedded real HTML/CSS/JS; local SVG bytes as data URIs; CSS fallback; memory storage fixture",
+  "limits": [
+    "Local HTTP navigation was blocked by browser administrator policy (ERR_BLOCKED_BY_ADMINISTRATOR).",
+    "StPageFlip CDN, external images, Windows file://, physical phones and persistent disk storage not tested."
+  ],
+  "checks": [
+    {
+      "name": "book_initialized",
+      "passed": true,
+      "pages": 188
+    },
+    {
+      "name": "CSS_fallback",
+      "passed": true
+    },
+    {
+      "name": "five_draft_chapters",
+      "passed": true
+    },
+    {
+      "name": "toc_search",
+      "passed": true
+    },
+    {
+      "name": "toc_jump",
+      "passed": true
+    },
+    {
+      "name": "section_ch05-outline",
+      "passed": true
+    },
+    {
+      "name": "section_ch05-harvest",
+      "passed": true
+    },
+    {
+      "name": "section_ch05-angels",
+      "passed": true
+    },
+    {
+      "name": "section_ch05-cities",
+      "passed": true
+    },
+    {
+      "name": "section_ch05-learning",
+      "passed": true
+    },
+    {
+      "name": "section_ch05-supplements",
+      "passed": true
+    },
+    {
+      "name": "section_ch05-sources",
+      "passed": true
+    },
+    {
+      "name": "local_figure_load",
+      "passed": true
+    },
+    {
+      "name": "figure_not_cropped",
+      "passed": true
+    },
+    {
+      "name": "figure_zoom",
+      "passed": true
+    },
+    {
+      "name": "figure_close_preserves_location",
+      "passed": true
+    },
+    {
+      "name": "old_block_c02-e90c2238d557-1",
+      "passed": true
+    },
+    {
+      "name": "old_block_c02-3f59ebbceabf-1",
+      "passed": true
+    },
+    {
+      "name": "old_block_c02-74c375bf39d1-1",
+      "passed": true
+    },
+    {
+      "name": "old_block_c02-3e40166ddedd-1",
+      "passed": true
+    },
+    {
+      "name": "old_block_c04-232c2e15ffec-1",
+      "passed": true
+    },
+    {
+      "name": "old_block_c04-ad9f36f93435-1",
+      "passed": true
+    },
+    {
+      "name": "old_block_c04-127dea902a0f-1",
+      "passed": true
+    },
+    {
+      "name": "old_block_c05-94292264eb63-1",
+      "passed": true
+    },
+    {
+      "name": "old_block_c05-92bde8e3c12a-1",
+      "passed": true
+    },
+    {
+      "name": "old_block_c05-669ef70753f5-1",
+      "passed": true
+    },
+    {
+      "name": "old_block_c05-f3bde231b937-1",
+      "passed": true
+    },
+    {
+      "name": "old_block_c05-0fcc8382e683-1",
+      "passed": true
+    },
+    {
+      "name": "legacy_section_ch01-humanity",
+      "passed": true
+    },
+    {
+      "name": "legacy_section_ch05-todo",
+      "passed": true
+    },
+    {
+      "name": "legacy_section_ch01-naberius",
+      "passed": true
+    },
+    {
+      "name": "legacy_section_ch01-phanes",
+      "passed": true
+    },
+    {
+      "name": "chapter5_layout",
+      "passed": true,
+      "chapter_pages": 9,
+      "overflow": []
+    },
+    {
+      "name": "keyboard_next",
+      "passed": true
+    },
+    {
+      "name": "keyboard_back",
+      "passed": true
+    },
+    {
+      "name": "resume_from_storage_fixture",
+      "passed": true
+    },
+    {
+      "name": "actual_legacy_hash_init",
+      "passed": true
+    },
+    {
+      "name": "javascript_no_errors",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

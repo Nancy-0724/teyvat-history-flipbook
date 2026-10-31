@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "description": "書頁短圖說。詳細來源與原圖說保留於章節及來源映射，放大後可展開閱讀。此層不改章節內容或 blockId。",
+  "figures": {
+    "assets/illustrations/ch01/12-primordial-sea-scene.svg": {
+      "caption": "圖 1-1｜原始胎海（示意）",
+      "loaded_caption": "圖 1-1｜原始胎海"
+    },
+    "assets/illustrations/ch02/01-seven-sovereigns.svg": {
+      "caption": "圖 2-1｜尼伯龍根與七龍王"
+    },
+    "assets/illustrations/ch02/07-apep.svg": {
+      "caption": "圖 2-1a｜阿佩普（示意）",
+      "loaded_caption": "圖 2-1a｜翠草之龍阿佩普"
+    },
+    "assets/illustrations/ch02/09-xiuhcoatl.svg": {
+      "caption": "圖 2-1b｜修庫特爾（示意）",
+      "loaded_caption": "圖 2-1b｜修庫特爾（名片圖像）"
+    },
+    "assets/illustrations/ch02/08-kukulkan.svg": {
+      "caption": "圖 2-2a｜庫庫爾坎（示意）",
+      "loaded_caption": "圖 2-2a｜龍賢者庫庫爾坎"
+    },
+    "assets/illustrations/ch02/10-secret-source.svg": {
+      "caption": "圖 2-2b｜秘源機兵（示意）",
+      "loaded_caption": "圖 2-2b｜秘源機兵"
+    },
+    "assets/illustrations/ch02/02-tollan.svg": {
+      "caption": "圖 2-2｜圖蘭文明與燃素技術"
+    },
+    "assets/illustrations/ch02/11-sky-engineering.svg": {
+      "caption": "圖 2-2c｜古代納塔天空工程（示意）",
+      "loaded_caption": "圖 2-2c｜古代納塔空中遺跡"
+    },
+    "assets/illustrations/ch02/03-cosmic-warning.svg": {
+      "caption": "圖 2-3｜星海的警告"
+    },
+    "assets/illustrations/ch02/04-three-moons.svg": {
+      "caption": "圖 2-4｜恆月、霜月與虹月"
+    },
+    "assets/illustrations/ch02/05-departure.svg": {
+      "caption": "圖 2-5｜尼伯龍根遠行與三月守望"
+    },
+    "assets/illustrations/ch02/06-dragon-timeline-v011.svg": {
+      "caption": "圖 2-6｜古龍時代年表"
+    },
+    "assets/illustrations/ch03/01-world-barrier.svg": {
+      "caption": "圖 3-1｜原初之人與世界屏障（示意）"
+    },
+    "assets/illustrations/ch03/02-throne-war.svg": {
+      "caption": "圖 3-2｜第一次王座戰爭年表"
+    },
+    "assets/illustrations/ch04/01-four-shades.svg": {
+      "caption": "圖 4-1｜高天王座與四影"
+    },
+    "assets/illustrations/ch04/02-naberius.svg": {
+      "caption": "圖 4-2｜納貝里士（權能示意）",
+      "loaded_caption": "圖 4-2｜納貝里士（融合後形象）"
+    },
+    "assets/illustrations/ch04/03-ronova.svg": {
+      "caption": "圖 4-3｜若娜瓦（權能示意）",
+      "loaded_caption": "圖 4-3｜死之執政若娜瓦"
+    },
+    "assets/illustrations/ch04/04-istaroth.svg": {
+      "caption": "圖 4-4｜伊斯塔露（權能示意）",
+      "loaded_caption": "圖 4-4｜時之執政伊斯塔露"
+    },
+    "assets/illustrations/ch04/05-asmoday.svg": {
+      "caption": "圖 4-5｜阿斯莫代（權能示意）",
+      "loaded_caption": "圖 4-5｜空之執政阿斯莫代"
+    },
+    "assets/illustrations/ch05/01-humanity.svg": {
+      "caption": "圖 5-1｜創世與早期人類文明"
+    },
+    "assets/illustrations/ch05/02-angel-source.svg": {
+      "caption": "圖 5-2a｜天使",
+      "loaded_caption": "圖 5-2a｜天使"
+    },
+    "assets/illustrations/ch05/03-seelie-source.svg": {
+      "caption": "圖 5-2b｜仙靈",
+      "loaded_caption": "圖 5-2b｜仙靈"
+    },
+    "assets/illustrations/ch05/04-nicole-source.svg": {
+      "caption": "圖 5-3｜尼可·萊恩",
+      "loaded_caption": "圖 5-3｜尼可·萊恩"
+    }
+  },
+  "galleries": {
+    "ch05-angels": {
+      "caption": "圖 5-2｜天使（左）與仙靈（右）"
+    }
+  }
+}

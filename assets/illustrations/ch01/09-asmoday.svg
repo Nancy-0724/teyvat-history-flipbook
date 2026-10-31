@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="空之執政示意圖">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#17273A"/><stop offset="1" stop-color="#4B527C"/></linearGradient></defs>
+<rect width="640" height="300" rx="14" fill="url(#bg)"/><rect x="13" y="13" width="614" height="274" rx="4" fill="none" stroke="#BAA377" stroke-width="1.4"/>
+<g opacity=".3" fill="#E7D4A6"><circle cx="78" cy="60" r="2"/><circle cx="552" cy="95" r="2"/><circle cx="542" cy="229" r="3"/></g>
+<path d="M255 83 L317 117 V182 L255 216 L193 182 V117 Z" fill="none" stroke="#D6B985" stroke-width="4"/><path d="M255 83 V150 M193 117 L255 150 L317 117 M255 150 V216" fill="none" stroke="#A6BDD5" stroke-width="3"/><rect x="219" y="121" width="72" height="58" rx="4" fill="none" stroke="#D6B985" stroke-width="2"/>
+<text x="452" y="130" fill="#EADBBE" font-size="26" font-family="serif" text-anchor="middle">空之執政</text>
+<text x="452" y="157" fill="#CEB481" font-size="13" font-family="sans-serif" letter-spacing="2" text-anchor="middle">ASMODAY</text>
+<text x="452" y="192" fill="#E6DBCC" font-size="15" text-anchor="middle">世界邊界與空間權能</text>
+<text x="320" y="270" fill="#C9BEAA" font-size="11" text-anchor="middle">原創歷史概念圖・可替換為遊戲畫面</text></svg>

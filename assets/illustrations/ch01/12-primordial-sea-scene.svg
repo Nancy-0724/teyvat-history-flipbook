@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="原始胎海示意圖">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#17273A"/><stop offset="1" stop-color="#326F81"/></linearGradient></defs>
+<rect width="640" height="300" rx="14" fill="url(#bg)"/><rect x="13" y="13" width="614" height="274" rx="4" fill="none" stroke="#BAA377" stroke-width="1.4"/>
+<g opacity=".3" fill="#E7D4A6"><circle cx="78" cy="60" r="2"/><circle cx="552" cy="95" r="2"/><circle cx="542" cy="229" r="3"/></g>
+<path d="M126 145 Q166 121 207 146 T291 148 T360 142" fill="none" stroke="#79C2C5" stroke-width="6"/><path d="M128 171 Q190 154 230 171 T343 176 M130 195 Q190 182 230 194 T340 190" fill="none" stroke="#AED4CC" stroke-width="3"/><g fill="#DFCE98"><circle cx="199" cy="103" r="15"/><circle cx="269" cy="104" r="11"/><circle cx="235" cy="129" r="7"/></g>
+<text x="452" y="127" fill="#EADBBE" font-size="25" font-family="serif" text-anchor="middle">原始胎海</text>
+<text x="452" y="154" fill="#CEB481" font-size="12" font-family="sans-serif" letter-spacing="1" text-anchor="middle">PRIMORDIAL SEA</text>
+<text x="452" y="190" fill="#E6DBCC" font-size="14" text-anchor="middle">早期生命誕生的海洋</text>
+<text x="320" y="270" fill="#C9BEAA" font-size="11" text-anchor="middle">原創歷史概念圖・可替換為遊戲畫面</text></svg>

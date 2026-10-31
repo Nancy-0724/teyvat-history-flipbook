@@ -1,0 +1,23 @@
+{
+  "approved_prose_paragraphs_unchanged": 17,
+  "other_markdown_chapters_unchanged": 59,
+  "all_existing_svgs_unchanged": true,
+  "all_original_migration_keys_preserved": true,
+  "modified_base_files": [
+    "README.md",
+    "assets/game-media/sources.json",
+    "content/part-01/chapter-04.md",
+    "css/style.css",
+    "data/bookmark-migrations-v07.json",
+    "data/catalog.json",
+    "docs/GAME_MEDIA_GUIDE.md",
+    "index.html",
+    "js/app.js",
+    "js/book-data.js",
+    "js/bookmark-migrations.js",
+    "js/game-media-data.js",
+    "js/game-media.js",
+    "js/generated-content.js",
+    "tools/build.py"
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "version": "V0.11",
+  "kind": "game-screenshot-alternatives",
+  "note": "第一至第五章正文；18組映射（16 active、2 staged）。圖蘭、三月、四影圖解固定保留。新增第五章三個來源圖位；本包未封裝第三方圖檔，連網載入或執行下載工具後可顯示，失敗時明示提示卡。",
+  "images": [
+    {
+      "id": "four-shades",
+      "chapter": 4,
+      "figure": "assets/illustrations/ch04/01-four-shades.svg",
+      "local": "assets/game-media/ch01/four-shades.webp",
+      "caption": "圖 4-1｜四影後世已公開形象整理（納貝里士為融合後形象，非創世年代合影）",
+      "credit": "《原神》官方幕間 PV〈神的侷限性〉（2025-07-09）",
+      "source_page": "https://www.gosugamers.net/news/76019-genshin-impact-reveals-asmoday-istaroth-ronova-and-naberius-rhinedottir-as-the-four-shades",
+      "urls": [
+        "https://cdn.asoworld.com/img/9207fd71167f4646a2140dca0c9d3829.jpg",
+        "https://static.gosugamers.net/5f/e3/4d/0dd678fd14440fde0ecbc3835fb95d18c79b2a40600ef7f5aa39b68a12.webp?w=1600"
+      ],
+      "original_figure": "assets/illustrations/ch01/03-four-shades.svg",
+      "placement": "active",
+      "official_source_page": "https://www.youtube.com/watch?v=juStpsdYU24",
+      "source_note": "圖像來源與既有鏡像網址保留；本次未取得第三方圖像檔案，不宣稱鏡像下載成功。",
+      "display": "diagram",
+      "packaged": false
+    },
+    {
+      "id": "ronova",
+      "chapter": 4,
+      "figure": "assets/illustrations/ch04/03-ronova.svg",
+      "local": "assets/game-media/ch01/ronova.jpg",
+      "caption": "圖 4-3｜死之執政若娜瓦：官方幕間預告〈神的侷限性〉人物形象。© HoYoverse",
+      "credit": "《原神》官方幕間 PV〈神的侷限性〉（2025-07-09）",
+      "source_page": "https://www.inside-games.jp/article/2025/07/09/169287.html",
+      "urls": [
+        "https://s.inside-games.jp/imgs/p/XDbCbghKzVCeRs9WXItNCQoLUAcGBQQDAgEA/1601745.jpg?zoom=spacing"
+      ],
+      "original_figure": "assets/illustrations/ch01/08-ronova.svg",
+      "placement": "active",
+      "official_source_page": "https://www.youtube.com/watch?v=juStpsdYU24",
+      "source_note": "圖像來源與既有鏡像網址保留；本次未取得第三方圖像檔案，不宣稱鏡像下載成功。",
+      "packaged": false
+    },
+    {
+      "id": "istaroth",
+      "chapter": 4,
+      "figure": "assets/illustrations/ch04/04-istaroth.svg",
+      "local": "assets/game-media/ch01/istaroth.jpg",
+      "caption": "圖 4-4｜時之執政伊斯塔露：官方角色宣傳圖。© HoYoverse",
+      "credit": "HoYoverse 官方角色宣傳圖",
+      "source_page": "https://genshin.hoyoverse.com/pt/news/detail/157548",
+      "urls": [
+        "https://fastcdn.hoyoverse.com/content-v2/hk4e/157548/c3701cb784fd408ecb00a3b07befcb23_3083426793941743111.jpg"
+      ],
+      "original_figure": "assets/illustrations/ch01/10-istaroth.svg",
+      "placement": "active",
+      "official_source_page": "https://www.youtube.com/watch?v=juStpsdYU24",
+      "source_note": "圖像來源與既有鏡像網址保留；本次未取得第三方圖像檔案，不宣稱鏡像下載成功。",
+      "packaged": false
+    },
+    {
+      "id": "asmoday",
+      "chapter": 4,
+      "figure": "assets/illustrations/ch04/05-asmoday.svg",
+      "local": "assets/game-media/ch01/asmoday.jpg",
+      "caption": "圖 4-5｜空之執政阿斯莫代：《原神》開場過場畫面，非遠古戰爭實景。© HoYoverse",
+      "credit": "《原神》開場過場動畫截圖",
+      "source_page": "https://www.pockettactics.com/genshin-impact/unknown-god",
+      "urls": [
+        "https://www.pockettactics.com/wp-content/sites/pockettactics/2022/02/Genshin-impact-unknown-god-1.jpg"
+      ],
+      "original_figure": "assets/illustrations/ch01/09-asmoday.svg",
+      "placement": "active",
+      "official_source_page": "https://www.youtube.com/watch?v=juStpsdYU24",
+      "source_note": "圖像來源與既有鏡像網址保留；本次未取得第三方圖像檔案，不宣稱鏡像下載成功。",
+      "packaged": false
+    },
+    {
+      "id": "apep",
+      "chapter": 2,
+      "figure": "assets/illustrations/ch02/07-apep.svg",
+      "local": "assets/game-media/ch02/apep.png",
+      "caption": "圖 2-1a｜翠草之龍阿佩普本體輪廓（納西妲傳說任務畫面）",
+      "credit": "《原神》納西妲傳說任務第二幕，阿佩普本體劇情畫面",
+      "source_page": "https://genshin-impact.fandom.com/wiki/Apep",
+      "urls": [
+        "https://d1tgyzt3mf06m9.cloudfront.net/v3-staging/2023/11/7-naga-di-genshin-impact-apep.png",
+        "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/NPC_Apep.png/revision/latest/scale-to-width-down/1200?cb=20230412051942"
+      ],
+      "placement": "active",
+      "packaged": false
+    },
+    {
+      "id": "tollan",
+      "chapter": 2,
+      "figure": "assets/illustrations/ch02/02-tollan.svg",
+      "local": "assets/game-media/ch02/tollan.webp",
+      "caption": "圖 2-2｜圖蘭後世遺址遊戲畫面；不替代本章源火與燃素關係圖。",
+      "credit": "《原神》納塔世界任務，圖蘭聖城場景截圖",
+      "source_page": "https://www.hoyolab.com/article/37855016",
+      "urls": [
+        "https://upload-os-bbs.hoyolab.com/upload/2025/03/26/181116170/2f9c2609e6b8c654b8ad4c0fa4cb55ee_1704311112660215300.webp?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70"
+      ],
+      "placement": "active",
+      "display": "diagram",
+      "packaged": false
+    },
+    {
+      "id": "kukulkan",
+      "chapter": 2,
+      "figure": "assets/illustrations/ch02/08-kukulkan.svg",
+      "local": "assets/game-media/ch02/kukulkan.jpg",
+      "caption": "圖 2-2a｜龍賢者庫庫爾坎：納塔任務中出現的古龍角色",
+      "credit": "《原神》納塔地區任務，庫庫爾坎相關過場畫面",
+      "source_page": "https://www.sportskeeda.com/esports/genshin-impact-5-5-subtle-lore-drops-probably-missed",
+      "urls": [
+        "https://staticg.sportskeeda.com/editor/2025/04/18387-17448267580978-1920.jpg?w=1600"
+      ],
+      "placement": "active",
+      "packaged": false
+    },
+    {
+      "id": "three-moons",
+      "chapter": 2,
+      "figure": "assets/illustrations/ch02/04-three-moons.svg",
+      "local": "assets/game-media/ch02/three-moons.jpg",
+      "caption": "圖 2-4｜三位月神的後世任務形象；非誕生現場，不替代本章職掌圖。",
+      "credit": "《原神》世界任務〈最初的那抹月光〉遊戲畫面，玩家截圖",
+      "source_page": "https://www.hoyolab.com/article/45245331",
+      "urls": [
+        "https://upload-os-bbs.hoyolab.com/upload/2026/05/28/309635118/7331f676e01ed1d8897f2d5c3a770a83_1940841479560483444.webp?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70",
+        "https://pbs.twimg.com/media/HJtqv69bAAAv_w1.jpg"
+      ],
+      "placement": "active",
+      "display": "diagram",
+      "packaged": false
+    },
+    {
+      "id": "naberius",
+      "chapter": 4,
+      "figure": "assets/illustrations/ch04/02-naberius.svg",
+      "local": "assets/game-media/ch01/naberius.jpg",
+      "caption": "圖 4-2｜納貝里士：官方幕間預告中的融合後形象，非遠古單獨肖像。© HoYoverse",
+      "credit": "《原神》官方幕間 PV〈神的侷限性〉，生之執政納貝里士／黃金萊茵多特的融合形象",
+      "source_page": "https://www.sportskeeda.com/esports/news-genshin-impact-reveals-ronova-istaroth-four-shades-primordial-one",
+      "urls": [
+        "https://staticg.sportskeeda.com/editor/2025/07/67541-17520407306791-1920.jpg?w=1045",
+        "https://shop.ldrescdn.com/rms/ld-space/process/img/145c5b12cfdb45dca0f295e85180c2761752457735.png?x-oss-process=image%2Fformat%2Cwebp"
+      ],
+      "original_figure": "assets/illustrations/ch01/11-naberius.svg",
+      "placement": "active",
+      "official_source_page": "https://www.youtube.com/watch?v=juStpsdYU24",
+      "source_note": "圖像來源與既有鏡像網址保留；本次未取得第三方圖像檔案，不宣稱鏡像下載成功。",
+      "packaged": false
+    },
+    {
+      "id": "primordial-sea-scene",
+      "chapter": 1,
+      "figure": "assets/illustrations/ch01/12-primordial-sea-scene.svg",
+      "local": "assets/game-media/ch01/primordial-sea.jpg",
+      "caption": "圖 1-1｜原始胎海：遊戲任務〈水仙的追跡〉中的胎海水域（後世任務畫面，非創世實景）",
+      "credit": "《原神》世界任務〈水仙的追跡〉第三階段劇情畫面",
+      "source_page": "https://gamemad.com/guide/283305",
+      "urls": [
+        "https://img2.gamemad.com/2023/11/10/g2RzRWUP.jpg"
+      ],
+      "placement": "active",
+      "packaged": false
+    },
+    {
+      "id": "enkanomiya-ruins",
+      "chapter": 12,
+      "figure": "assets/illustrations/ch12/01-enkanomiya-scene.svg",
+      "local": "assets/game-media/ch01/enkanomiya-ruins.jpg",
+      "caption": "圖 12-1｜白夜國遺址：淵下宮遠古人類文明的建築遺跡",
+      "credit": "《原神》淵下宮遊戲實景，遠古白夜國遺址",
+      "source_page": "https://cadelta.ru/games/id9100",
+      "urls": [
+        "https://cdn.cadelta.ru/media/covers/9/id9100/cover.jpg"
+      ],
+      "original_figure": "assets/illustrations/ch01/13-enkanomiya-scene.svg",
+      "placement": "staged",
+      "packaged": false
+    },
+    {
+      "id": "three-realms-landscape",
+      "chapter": 56,
+      "figure": "assets/illustrations/ch56/02-three-realms-scene.svg",
+      "local": "assets/game-media/ch01/three-realms-landscape.jpg",
+      "caption": "圖 56-2｜淵下宮：三界相關任務的遊戲場景",
+      "credit": "《原神》限時活動〈三界路饗祭〉中淵下宮的遊戲場景",
+      "source_page": "https://nmiagaming.com/posts/genshin-impact-version-2-5-update-on-february-16th-2022-introducing-yae-miko-as-a-brand-new-playable-five-star-character",
+      "urls": [
+        "https://dn2rwli0e0lll.cloudfront.net/strapi-uploads-cn/Three_Realms_Gateway_Offering_5_scaled_a2bd1161ed.jpg"
+      ],
+      "original_figure": "assets/illustrations/ch01/14-three-realms-scene.svg",
+      "placement": "staged",
+      "packaged": false
+    },
+    {
+      "id": "xiuhcoatl",
+      "chapter": 2,
+      "figure": "assets/illustrations/ch02/09-xiuhcoatl.svg",
+      "local": "assets/game-media/ch02/xiuhcoatl.jpg",
+      "caption": "圖 2-1b｜火龍王修庫特爾：遊戲名片〈納塔・炎龍〉的龍族圖像",
+      "credit": "《原神》遊戲名片〈納塔・炎龍〉圖像（非角色實體模型）",
+      "source_page": "https://genshin-impact.fandom.com/wiki/Natlan%3A_Fiery_Dragon",
+      "urls": [
+        "https://staticg.sportskeeda.com/editor/2025/07/efef0-17539563983559-1920.jpg"
+      ],
+      "placement": "active",
+      "packaged": false
+    },
+    {
+      "id": "secret-source",
+      "chapter": 2,
+      "figure": "assets/illustrations/ch02/10-secret-source.svg",
+      "local": "assets/game-media/ch02/secret-source.jpg",
+      "caption": "圖 2-2b｜秘源機兵：古代納塔的自動化技術遺產",
+      "credit": "《原神》納塔地區秘源機兵・構型械的遊戲畫面",
+      "source_page": "https://www.gamesradar.com/games/mmo/genshin-impact-secret-source-automaton/",
+      "urls": [
+        "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A420%2Ccw%3A1080%2Cch%3A1080%2Cq%3A80%2Cw%3A1080/EQSvvGWaXKVkszYjFqm6o7.jpg"
+      ],
+      "placement": "active",
+      "packaged": false
+    },
+    {
+      "id": "sky-engineering",
+      "chapter": 2,
+      "figure": "assets/illustrations/ch02/11-sky-engineering.svg",
+      "local": "assets/game-media/ch02/sky-engineering.jpg",
+      "caption": "圖 2-2c｜古代納塔空中遺構：天蛇船相關空中工程的遺跡",
+      "credit": "《原神》奧奇卡納塔空中遺跡的遊戲實景",
+      "source_page": "https://simulationdaily.com/news/genshin-impact-version-5-2/",
+      "urls": [
+        "https://cdn.simulationdaily.com/2024/11/91747862-ochkanatlan-2.jpg"
+      ],
+      "placement": "active",
+      "packaged": false
+    },
+    {
+      "id": "angel-example",
+      "chapter": 5,
+      "figure": "assets/illustrations/ch05/02-angel-source.svg",
+      "local": "assets/game-media/ch05/angel-example.jpg",
+      "caption": "圖 5-2a｜天使形象：尼可角色預告中的個體示例，不代表全族外觀。",
+      "credit": "《原神》官方角色預告〈緘口的金弦〉畫面，Online Station 轉載；© HoYoverse",
+      "source_page": "https://www.online-station.net/mobile-game/997943",
+      "official_source_page": "https://www.youtube.com/watch?v=hWMEKTc6z8U",
+      "source_type": "官方影片畫面／媒體轉載",
+      "urls": [
+        "https://media.online-station.net/images/2026/05/07d5995b60055a75c300fdc076be45f9.jpg"
+      ],
+      "source_note": "此為個體形象示例，不能據此指定所有天使外觀或創造年份。",
+      "placement": "active",
+      "fallback_only": true,
+      "packaged": false
+    },
+    {
+      "id": "ordinary-seelie",
+      "chapter": 5,
+      "figure": "assets/illustrations/ch05/03-seelie-source.svg",
+      "local": "assets/game-media/ch05/ordinary-seelie.png",
+      "caption": "圖 5-2b｜後世的普通仙靈：族群形態對照，不表示尼可本人變成此仙靈。",
+      "credit": "《原神》遊戲截圖，GameWith 指南收錄；遊戲素材 © HoYoverse",
+      "source_page": "https://gamewith.net/genshin-impact/article/show/42506",
+      "source_type": "第三方攻略收錄的遊戲截圖",
+      "urls": [
+        "https://img.gamewith.jp/img/original_0d035cf45185bde6b120e3b4ae52ddb2.png",
+        "https://img.gamewith.jp/img/0d035cf45185bde6b120e3b4ae52ddb2.png"
+      ],
+      "source_note": "普通仙靈對照；來源頁已核對，本輪圖檔端點未能重新取回，保留前輪已核看的候選，不宣稱本輪下載成功。",
+      "placement": "active",
+      "fallback_only": true,
+      "packaged": false
+    },
+    {
+      "id": "nicole-reeyn",
+      "chapter": 5,
+      "figure": "assets/illustrations/ch05/04-nicole-source.svg",
+      "local": "assets/game-media/ch05/nicole-reeyn.jpg",
+      "caption": "圖 5-3｜尼可·萊恩：官方角色展示畫面，供人物辨識；背景不是遠古城邦復原。",
+      "credit": "《原神》開發團隊，PlayStation Blog（2026-05-11）；© HoYoverse",
+      "source_page": "https://blog.zh-hant.playstation.com/2026/05/11/20260511-gi/",
+      "official_source_page": "https://blog.zh-hant.playstation.com/2026/05/11/20260511-gi/",
+      "source_type": "開發團隊正式發布的角色畫面",
+      "urls": [
+        "https://blog.ja.playstation.com/uploads/sites/7/2026/05/970ef3790a77457a9c5b3bbca53bed2a971c4ca1-scaled.jpg"
+      ],
+      "source_note": "只作人物辨識，不以展示場景或服飾重建創世年代。",
+      "placement": "active",
+      "fallback_only": true,
+      "packaged": false
+    }
+  ]
+}

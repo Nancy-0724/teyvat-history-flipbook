@@ -1,0 +1,35 @@
+{
+  "image_basis": "Two crops from user-before.png, preview fixtures only; not included as source image files.",
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "caption": "圖 5-2｜天使（左）與仙靈（右）",
+      "height": 171.265625,
+      "imageHeight": 132.265625,
+      "captionHeight": 18
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "caption": "圖 5-2｜天使（左）與仙靈（右）",
+      "height": 124.21875,
+      "imageHeight": 89.71875,
+      "captionHeight": 13.5
+    },
+    {
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "caption": "圖 5-2｜天使（左）與仙靈（右）",
+      "height": 115.78125,
+      "imageHeight": 81.28125,
+      "captionHeight": 13.5
+    }
+  ]
+}

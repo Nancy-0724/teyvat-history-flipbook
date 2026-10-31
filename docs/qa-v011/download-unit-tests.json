@@ -1,0 +1,17 @@
+{
+  "mode": "Synthetic response unit test; NOT actual source downloads",
+  "checks": [
+    {
+      "name": "mock_jpeg_saved_and_site_synced",
+      "passed": true
+    },
+    {
+      "name": "cached_image_reused",
+      "passed": true
+    },
+    {
+      "name": "rejects_html_no_fake_success",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "label": "mobile",
+  "checks": [
+    {
+      "name": "book_structure",
+      "passed": true
+    },
+    {
+      "name": "no_clipped_overflow",
+      "passed": true,
+      "warnings": []
+    },
+    {
+      "name": "chapter_openers_fit",
+      "passed": true
+    },
+    {
+      "name": "all_pages_fit",
+      "passed": true
+    },
+    {
+      "name": "short_caption_圖 1-1",
+      "passed": true,
+      "visible_text": "圖 1-1｜原始胎海（示意）"
+    },
+    {
+      "name": "figure_圖 1-1",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 2-1",
+      "passed": true,
+      "visible_text": "圖 2-1｜尼伯龍根與七龍王"
+    },
+    {
+      "name": "figure_圖 2-1",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 2-1a",
+      "passed": true,
+      "visible_text": "圖 2-1a｜阿佩普（示意）"
+    },
+    {
+      "name": "figure_圖 2-1a",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 2-1b",
+      "passed": true,
+      "visible_text": "圖 2-1b｜修庫特爾（示意）"
+    },
+    {
+      "name": "figure_圖 2-1b",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 2-2a",
+      "passed": true,
+      "visible_text": "圖 2-2a｜庫庫爾坎（示意）"
+    },
+    {
+      "name": "figure_圖 2-2a",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 2-2b",
+      "passed": true,
+      "visible_text": "圖 2-2b｜秘源機兵（示意）"
+    },
+    {
+      "name": "figure_圖 2-2b",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 2-2",
+      "passed": true,
+      "visible_text": "圖 2-2｜圖蘭文明與燃素技術"
+    },
+    {
+      "name": "figure_圖 2-2",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 2-2c",
+      "passed": true,
+      "visible_text": "圖 2-2c｜古代納塔天空工程（示意）"
+    },
+    {
+      "name": "figure_圖 2-2c",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 2-3",
+      "passed": true,
+      "visible_text": "圖 2-3｜星海的警告"
+    },
+    {
+      "name": "figure_圖 2-3",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 2-4",
+      "passed": true,
+      "visible_text": "圖 2-4｜恆月、霜月與虹月"
+    },
+    {
+      "name": "figure_圖 2-4",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 2-5",
+      "passed": true,
+      "visible_text": "圖 2-5｜尼伯龍根遠行與三月守望"
+    },
+    {
+      "name": "figure_圖 2-5",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 2-6",
+      "passed": true,
+      "visible_text": "圖 2-6｜古龍時代年表"
+    },
+    {
+      "name": "figure_圖 2-6",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 3-1",
+      "passed": true,
+      "visible_text": "圖 3-1｜原初之人與世界屏障（示意）"
+    },
+    {
+      "name": "figure_圖 3-1",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 3-2",
+      "passed": true,
+      "visible_text": "圖 3-2｜第一次王座戰爭年表"
+    },
+    {
+      "name": "figure_圖 3-2",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 4-1",
+      "passed": true,
+      "visible_text": "圖 4-1｜高天王座與四影"
+    },
+    {
+      "name": "figure_圖 4-1",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 4-2",
+      "passed": true,
+      "visible_text": "圖 4-2｜納貝里士（權能示意）"
+    },
+    {
+      "name": "figure_圖 4-2",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 4-3",
+      "passed": true,
+      "visible_text": "圖 4-3｜若娜瓦（權能示意）"
+    },
+    {
+      "name": "figure_圖 4-3",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 4-4",
+      "passed": true,
+      "visible_text": "圖 4-4｜伊斯塔露（權能示意）"
+    },
+    {
+      "name": "figure_圖 4-4",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 4-5",
+      "passed": true,
+      "visible_text": "圖 4-5｜阿斯莫代（權能示意）"
+    },
+    {
+      "name": "figure_圖 4-5",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 5-1",
+      "passed": true,
+      "visible_text": "圖 5-1｜創世與早期人類文明"
+    },
+    {
+      "name": "figure_圖 5-1",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 5-2a",
+      "passed": true,
+      "visible_text": "圖 5-2｜天使（左）與仙靈（右）"
+    },
+    {
+      "name": "figure_圖 5-2a",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 5-2b",
+      "passed": true,
+      "visible_text": "圖 5-2｜天使（左）與仙靈（右）"
+    },
+    {
+      "name": "figure_圖 5-2b",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "short_caption_圖 5-3",
+      "passed": true,
+      "visible_text": "圖 5-3｜尼可·萊恩"
+    },
+    {
+      "name": "figure_圖 5-3",
+      "passed": true,
+      "loaded": true,
+      "zoom": true,
+      "preserved": true
+    },
+    {
+      "name": "all_bookmark_migrations",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "search_人類",
+      "passed": true,
+      "chapter_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "25",
+        "33",
+        "35"
+      ]
+    },
+    {
+      "name": "search_天使",
+      "passed": true,
+      "chapter_ids": [
+        "5",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "name": "search_仙靈",
+      "passed": true,
+      "chapter_ids": [
+        "5",
+        "21"
+      ]
+    },
+    {
+      "name": "search_尼可",
+      "passed": true,
+      "chapter_ids": [
+        "5"
+      ]
+    },
+    {
+      "name": "search_妮可",
+      "passed": true,
+      "chapter_ids": [
+        "5"
+      ]
+    },
+    {
+      "name": "search_四執政",
+      "passed": true,
+      "chapter_ids": [
+        "3",
+        "4",
+        "59"
+      ]
+    },
+    {
+      "name": "search_原始胎海",
+      "passed": true,
+      "chapter_ids": [
+        "1"
+      ]
+    },
+    {
+      "name": "search_direct_jump",
+      "passed": true
+    },
+    {
+      "name": "search_no_html_injection",
+      "passed": true
+    },
+    {
+      "name": "resume_after_reload",
+      "passed": true
+    },
+    {
+      "name": "old_hash",
+      "passed": true
+    },
+    {
+      "name": "mock_swap_angel-example",
+      "passed": true
+    },
+    {
+      "name": "source_links_angel-example",
+      "passed": true
+    },
+    {
+      "name": "notes_collapsed_angel-example",
+      "passed": true
+    },
+    {
+      "name": "notes_expand_angel-example",
+      "passed": true
+    },
+    {
+      "name": "mock_swap_stable_layout_angel-example",
+      "passed": true,
+      "metrics": [
+        {
+          "v": 0,
+          "h": 0
+        }
+      ]
+    },
+    {
+      "name": "mock_swap_ordinary-seelie",
+      "passed": true
+    },
+    {
+      "name": "source_links_ordinary-seelie",
+      "passed": true
+    },
+    {
+      "name": "notes_collapsed_ordinary-seelie",
+      "passed": true
+    },
+    {
+      "name": "notes_expand_ordinary-seelie",
+      "passed": true
+    },
+    {
+      "name": "mock_swap_stable_layout_ordinary-seelie",
+      "passed": true,
+      "metrics": [
+        {
+          "v": 0,
+          "h": 0
+        }
+      ]
+    },
+    {
+      "name": "mock_swap_nicole-reeyn",
+      "passed": true
+    },
+    {
+      "name": "source_links_nicole-reeyn",
+      "passed": true
+    },
+    {
+      "name": "notes_collapsed_nicole-reeyn",
+      "passed": true
+    },
+    {
+      "name": "notes_expand_nicole-reeyn",
+      "passed": true
+    },
+    {
+      "name": "mock_swap_stable_layout_nicole-reeyn",
+      "passed": true,
+      "metrics": [
+        {
+          "v": 0,
+          "h": 0
+        }
+      ]
+    },
+    {
+      "name": "mock_swap_tollan",
+      "passed": true
+    },
+    {
+      "name": "source_links_tollan",
+      "passed": true
+    },
+    {
+      "name": "notes_collapsed_tollan",
+      "passed": true
+    },
+    {
+      "name": "notes_expand_tollan",
+      "passed": true
+    },
+    {
+      "name": "mock_swap_stable_layout_tollan",
+      "passed": true,
+      "metrics": [
+        {
+          "v": 0,
+          "h": 0
+        }
+      ]
+    },
+    {
+      "name": "mock_swap_three-moons",
+      "passed": true
+    },
+    {
+      "name": "source_links_three-moons",
+      "passed": true
+    },
+    {
+      "name": "notes_collapsed_three-moons",
+      "passed": true
+    },
+    {
+      "name": "notes_expand_three-moons",
+      "passed": true
+    },
+    {
+      "name": "mock_swap_stable_layout_three-moons",
+      "passed": true,
+      "metrics": [
+        {
+          "v": 0,
+          "h": 0
+        }
+      ]
+    },
+    {
+      "name": "mock_swap_four-shades",
+      "passed": true
+    },
+    {
+      "name": "source_links_four-shades",
+      "passed": true
+    },
+    {
+      "name": "notes_collapsed_four-shades",
+      "passed": true
+    },
+    {
+      "name": "notes_expand_four-shades",
+      "passed": true
+    },
+    {
+      "name": "mock_swap_stable_layout_four-shades",
+      "passed": true,
+      "metrics": [
+        {
+          "v": 0,
+          "h": 0
+        }
+      ]
+    },
+    {
+      "name": "mock_swap_primordial-sea-scene",
+      "passed": true
+    },
+    {
+      "name": "figure_number_unchanged",
+      "passed": true
+    },
+    {
+      "name": "source_links_primordial-sea-scene",
+      "passed": true
+    },
+    {
+      "name": "notes_collapsed_primordial-sea-scene",
+      "passed": true
+    },
+    {
+      "name": "notes_expand_primordial-sea-scene",
+      "passed": true
+    },
+    {
+      "name": "mock_swap_stable_layout_primordial-sea-scene",
+      "passed": true,
+      "metrics": [
+        {
+          "v": 0,
+          "h": 0
+        }
+      ]
+    },
+    {
+      "name": "one_pair_caption",
+      "passed": true,
+      "metrics": {
+        "captions": 1,
+        "text": "圖 5-2｜天使（左）與仙靈（右）",
+        "statuses": 0,
+        "labels": 0,
+        "captionHeight": 13.5,
+        "imageHeight": 89.71875
+      }
+    },
+    {
+      "name": "no_javascript_errors",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "pages": 212,
+  "layout_warnings": [],
+  "search_results": {
+    "人類": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "25",
+      "33",
+      "35"
+    ],
+    "天使": [
+      "5",
+      "8",
+      "9"
+    ],
+    "仙靈": [
+      "5",
+      "21"
+    ],
+    "尼可": [
+      "5"
+    ],
+    "妮可": [
+      "5"
+    ],
+    "四執政": [
+      "3",
+      "4",
+      "59"
+    ],
+    "原始胎海": [
+      "1"
+    ]
+  },
+  "passed": true
+}

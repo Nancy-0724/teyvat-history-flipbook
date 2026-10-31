@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="翠草之龍示意圖">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#17273A"/><stop offset="1" stop-color="#426B53"/></linearGradient></defs>
+<rect width="640" height="300" rx="14" fill="url(#bg)"/><rect x="13" y="13" width="614" height="274" rx="4" fill="none" stroke="#BAA377" stroke-width="1.4"/>
+<g opacity=".3" fill="#E7D4A6"><circle cx="78" cy="60" r="2"/><circle cx="552" cy="95" r="2"/><circle cx="542" cy="229" r="3"/></g>
+<path d="M171 187 C177 113 236 89 290 101 C336 111 352 159 310 181 C282 196 241 187 244 158 C246 134 279 124 293 145" fill="none" stroke="#8AB38A" stroke-width="23" stroke-linecap="round"/><path d="M174 180 L161 164 L186 167 L200 189" fill="#8AB38A"/><circle cx="187" cy="179" r="4" fill="#F3D5AA"/><path d="M321 116 L344 92 M326 146 L365 143" stroke="#D6C18B" stroke-width="4"/>
+<text x="452" y="130" fill="#EADBBE" font-size="26" font-family="serif" text-anchor="middle">翠草之龍</text>
+<text x="452" y="157" fill="#CEB481" font-size="13" font-family="sans-serif" letter-spacing="2" text-anchor="middle">APEP</text>
+<text x="452" y="192" fill="#E6DBCC" font-size="15" text-anchor="middle">草元素龍王與原始生命</text>
+<text x="320" y="270" fill="#C9BEAA" font-size="11" text-anchor="middle">原創歷史概念圖・可替換為遊戲畫面</text></svg>

@@ -1,0 +1,112 @@
+{
+  "mode": "embedded project HTML/CSS/JS; SVG data URIs; in-memory storage fixture; CSS fallback",
+  "not_tested": [
+    "localhost/file navigation blocked by browser policy",
+    "StPageFlip CDN",
+    "third-party images",
+    "disk persistence",
+    "Windows/physical phones"
+  ],
+  "checks": [
+    {
+      "viewport": "mobile",
+      "book_initialized": true,
+      "pages": 197
+    },
+    {
+      "viewport": "mobile",
+      "toc_search_and_jump": true
+    },
+    {
+      "viewport": "mobile",
+      "figure": "four-shades",
+      "local_svg_loaded": true,
+      "zoom_close_preserves_page": true,
+      "overflow_px": [
+        0
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "figure": "naberius",
+      "local_svg_loaded": true,
+      "zoom_close_preserves_page": true,
+      "overflow_px": [
+        0
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "figure": "ronova",
+      "local_svg_loaded": true,
+      "zoom_close_preserves_page": true,
+      "overflow_px": [
+        0
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "figure": "istaroth",
+      "local_svg_loaded": true,
+      "zoom_close_preserves_page": true,
+      "overflow_px": [
+        0
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "figure": "asmoday",
+      "local_svg_loaded": true,
+      "zoom_close_preserves_page": true,
+      "overflow_px": [
+        0
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "legacy_location_resolution": "ch01-naberius",
+      "target": "ch04-naberius",
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "legacy_location_resolution": "ch01-ronova",
+      "target": "ch04-ronova",
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "legacy_location_resolution": "ch01-istaroth",
+      "target": "ch04-istaroth",
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "legacy_location_resolution": "ch01-asmoday",
+      "target": "ch04-asmoday",
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "legacy_location_resolution": "ch04-todo",
+      "target": "ch04-rules",
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "legacy_location_resolution": "ch01-phanes",
+      "target": "ch03-arrival",
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "legacy_storage_record_specific_section": true
+    },
+    {
+      "viewport": "mobile",
+      "keyboard_forward_back": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="白夜國遺址示意圖">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#17273A"/><stop offset="1" stop-color="#5C6986"/></linearGradient></defs>
+<rect width="640" height="300" rx="14" fill="url(#bg)"/><rect x="13" y="13" width="614" height="274" rx="4" fill="none" stroke="#BAA377" stroke-width="1.4"/>
+<g opacity=".3" fill="#E7D4A6"><circle cx="78" cy="60" r="2"/><circle cx="552" cy="95" r="2"/><circle cx="542" cy="229" r="3"/></g>
+<path d="M145 209 L145 125 L170 108 L195 126 V209 M213 213 V115 L241 91 L269 115 V213 M288 208 V134 L312 120 L339 140 V208" fill="none" stroke="#C1AE8A" stroke-width="7"/><circle cx="240" cy="61" r="29" fill="none" stroke="#EED6A4" stroke-width="4"/><path d="M215 61 H265 M240 36 V86" stroke="#E4D4BA" stroke-width="3"/>
+<text x="452" y="127" fill="#EADBBE" font-size="25" font-family="serif" text-anchor="middle">白夜國遺址</text>
+<text x="452" y="154" fill="#CEB481" font-size="12" font-family="sans-serif" letter-spacing="1" text-anchor="middle">ENKANOMIYA</text>
+<text x="452" y="190" fill="#E6DBCC" font-size="14" text-anchor="middle">遠古文明遺構</text>
+<text x="320" y="270" fill="#C9BEAA" font-size="11" text-anchor="middle">原創歷史概念圖・可替換為遊戲畫面</text></svg>

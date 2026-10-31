@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101c28">
+  <meta name="description" content="《提瓦特通史》沉浸式線上翻頁電子書。一本書、八大篇章、六十章，含圖文閱讀與全書跳轉目錄。">
+  <title>提瓦特通史｜沉浸式數位典籍</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <main>
+    <section class="home" id="home" aria-labelledby="home-title">
+      <header class="home-nav">
+        <div class="wordmark"><span class="wordmark-mark">✥</span><span>提瓦特通史 <small>THE HISTORY OF TEYVAT</small></span></div>
+        <span class="small-tag">數位典籍 · 逐章增補版 V0.12</span>
+      </header>
+      <div class="hero">
+        <div class="hero-copy">
+          <div class="overline">THE CHRONICLES OF TEYVAT <span>—</span> DIGITAL EDITION</div>
+          <h1 id="home-title">提瓦特<span>通史</span></h1>
+          <p class="hero-subtitle">從原初紀元到七國新世代</p>
+          <div class="hero-rule"></div>
+          <p class="hero-blurb">沿著時間閱讀世界的誕生、文明的興亡與諸國的變遷。像翻閱一本歷史書，也能從任何一章開始探索。</p>
+          <div class="hero-actions">
+            <button type="button" class="gold-btn" id="begin-book">開啟電子書 <span>↗</span></button>
+            <button type="button" class="outline-btn" id="jump-outline">查看八大篇章 <span>↓</span></button>
+          </div>
+          <div class="hero-stats"><span>01 <b>本完整典籍</b></span><i></i><span>08 <b>篇歷史主題</b></span><i></i><span>60 <b>章內容架構</b></span></div>
+          <p class="home-notice">非官方歷史研究・第一至第五章已收錄歷史正文與原創插圖（草稿），其餘章節依序編纂。</p>
+        </div>
+        <div class="hero-book-area" aria-hidden="true">
+          <div class="halo"></div>
+          <div class="hero-book"><div class="hero-book-spine"></div><div class="hero-book-front">
+            <div class="book-cover-frame"><div class="book-cover-frame-in">
+              <small>WORLD HISTORY OF TEYVAT</small>
+              <div class="hero-emblem">✧</div>
+              <strong>提 瓦 特<br>通 史</strong>
+              <span class="cover-sub">從原初紀元到七國新世代</span>
+              <div class="cover-flourish">✥</div>
+              <em>八大篇章 · 六十章</em>
+            </div></div>
+          </div></div>
+          <div class="hero-book-ground"></div>
+        </div>
+      </div>
+      <section class="outline" id="outline" aria-labelledby="outline-title">
+        <div class="outline-top"><div><span class="overline">CONTENTS</span><h2 id="outline-title">全書八大篇章</h2></div><p>單一書冊・依歷史時間線展開</p></div>
+        <div class="outline-grid" id="outline-grid"></div>
+      </section>
+      <footer class="home-footer"><span>TEYVAT HISTORY · A NON-OFFICIAL HISTORICAL READER</span><span>原創視覺示意與未定稿教材；任何史料主張須以遊戲正式文本核實。</span></footer>
+    </section>
+
+    <section class="reader" id="reader" hidden aria-label="提瓦特通史全螢幕電子書閱讀器">
+      <div class="reader-ambient" aria-hidden="true"></div>
+      <header class="reader-topbar">
+        <button type="button" class="top-button" id="exit-reader" aria-label="離開閱讀返回首頁"><span class="btn-symbol">←</span><span class="desktop-label"> 返回首頁</span></button>
+        <div class="reader-current"><span>《提瓦特通史》</span><strong id="current-location">全書 · 卷首</strong></div>
+        <div class="reader-top-actions">
+          <button type="button" class="top-button" id="fullscreen-btn" aria-label="切換瀏覽器全螢幕模式" title="全螢幕"><span class="btn-symbol" id="fullscreen-icon">⛶</span><span class="desktop-label"> 全螢幕</span></button>
+          <button type="button" class="top-button top-toc" id="top-toc" aria-controls="toc-drawer" aria-expanded="false"><span class="btn-symbol">☷</span> 目錄</button>
+        </div>
+      </header>
+
+      <div class="reader-stage" id="reader-stage">
+        <div class="reader-ambient-seal" aria-hidden="true">✧</div>
+        <div id="book-frame" class="book-frame">
+          <div id="book" class="book-root" aria-label="可翻頁的完整電子書"></div>
+        </div>
+        <button class="edge-turn edge-prev" type="button" id="edge-prev" title="上一頁" aria-label="上一頁">‹</button>
+        <button class="edge-turn edge-next" type="button" id="edge-next" title="下一頁" aria-label="下一頁">›</button>
+      </div>
+
+      <nav class="reader-bottom" aria-label="翻頁及跳章操作">
+        <button type="button" class="bottom-action" id="prev-page" aria-label="上一頁"><span>←</span><span class="desktop-label"> 上一頁</span></button>
+        <div class="page-indicator"><span class="page-count" id="page-count">封面</span><div class="page-meter" aria-hidden="true"><div id="page-meter-fill"></div></div><span id="chapter-readout">第 1 頁</span></div>
+        <button type="button" class="bottom-action" id="next-page" aria-label="下一頁"><span class="desktop-label">下一頁 </span><span>→</span></button>
+      </nav>
+
+      <button type="button" class="floating-toc" id="floating-toc" aria-label="開啟八篇六十章快速目錄" aria-controls="toc-drawer" aria-expanded="false"><span class="floating-icon">☰</span><span>全書目錄</span><small>60</small></button>
+
+      <div id="toc-drawer" class="toc-drawer" hidden>
+        <div class="toc-shade" id="toc-shade"></div>
+        <aside class="toc-panel" role="dialog" aria-modal="true" aria-labelledby="toc-title">
+          <div class="toc-panel-top"><div><small>TABLE OF CONTENTS</small><h2 id="toc-title">全書目錄</h2><p>一本書・八大篇章・六十章</p></div><button type="button" class="toc-close" id="toc-close" aria-label="關閉目錄">×</button></div>
+          <label class="toc-search-label" for="toc-search">搜尋章名、人物與正文</label>
+          <input aria-describedby="toc-search-status" id="toc-search" class="toc-search" type="search" autocomplete="off" placeholder="搜尋章名或正文，例如：天使、仙靈、尼可…">
+          <div class="toc-scroll" id="toc-scroll">
+            <button type="button" class="toc-front-button" id="jump-front">⌂　返回封面／卷首</button>
+            <p id="toc-search-status" class="toc-search-status" aria-live="polite"></p><div id="toc-chapters"></div>
+          </div>
+          <div class="toc-panel-foot"><span class="toc-legend-dot"></span> 每章各有獨立內容檔；可逐段增補，並顯示章節狀態。</div>
+        </aside>
+      </div>
+
+      <div class="picture-layer" id="picture-layer" hidden role="dialog" aria-modal="true" aria-label="檢視圖表">
+        <button type="button" class="picture-dismiss" id="picture-dismiss" aria-label="關閉放大圖片">×</button>
+        <figure><img id="picture-large" alt=""><figcaption id="picture-caption"></figcaption><div id="picture-source" class="picture-source"></div></figure>
+      </div>
+    </section>
+  </main>
+  <noscript><div class="nojs">請啟用 JavaScript 以使用互動翻頁閱讀器。</div></noscript>
+  <script defer src="./js/book-data.js"></script>
+  <script defer src="./js/generated-content.js"></script>
+  <script defer src="./js/game-media-data.js"></script>
+  <script defer src="./js/game-media.js"></script>
+  <script defer src="./js/bookmark-migrations.js"></script>
+  <script defer src="./js/reader.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.min.js"></script>
+  <script defer src="./js/app.js"></script>
+</body>
+</html>

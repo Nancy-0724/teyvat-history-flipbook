@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="死之執政示意圖">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#17273A"/><stop offset="1" stop-color="#8D5060"/></linearGradient></defs>
+<rect width="640" height="300" rx="14" fill="url(#bg)"/><rect x="13" y="13" width="614" height="274" rx="4" fill="none" stroke="#BAA377" stroke-width="1.4"/>
+<g opacity=".3" fill="#E7D4A6"><circle cx="78" cy="60" r="2"/><circle cx="552" cy="95" r="2"/><circle cx="542" cy="229" r="3"/></g>
+<path d="M255 70 Q305 140 256 211 Q207 139 255 70" fill="none" stroke="#D5C69E" stroke-width="4"/><circle cx="255" cy="142" r="50" fill="none" stroke="#A36D7E" stroke-width="3"/><path d="M256 111 L256 180 M230 132 L282 160 M282 132 L230 160" stroke="#C9A687" stroke-width="4"/>
+<text x="452" y="130" fill="#EADBBE" font-size="26" font-family="serif" text-anchor="middle">死之執政</text>
+<text x="452" y="157" fill="#CEB481" font-size="13" font-family="sans-serif" letter-spacing="2" text-anchor="middle">RONOVA</text>
+<text x="452" y="192" fill="#E6DBCC" font-size="15" text-anchor="middle">生命終結與死亡權能</text>
+<text x="320" y="270" fill="#C9BEAA" font-size="11" text-anchor="middle">原創歷史概念圖・可替換為遊戲畫面</text></svg>

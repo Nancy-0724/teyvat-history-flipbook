@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="天蛇船示意圖">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#17273A"/><stop offset="1" stop-color="#4D6C8D"/></linearGradient></defs>
+<rect width="640" height="300" rx="14" fill="url(#bg)"/><rect x="13" y="13" width="614" height="274" rx="4" fill="none" stroke="#BAA377" stroke-width="1.4"/>
+<g opacity=".3" fill="#E7D4A6"><circle cx="78" cy="60" r="2"/><circle cx="552" cy="95" r="2"/><circle cx="542" cy="229" r="3"/></g>
+<circle cx="238" cy="145" r="68" fill="none" stroke="#A9D3E1" stroke-width="10" stroke-dasharray="45 16"/><path d="M118 174 L170 148 L248 166 L324 146 L363 169 L322 197 L209 195 Z" fill="none" stroke="#D4B88D" stroke-width="6"/><path d="M193 139 L207 102 L243 100 L265 139" fill="none" stroke="#C3DBE3" stroke-width="5"/><circle cx="242" cy="68" r="8" fill="#E6CB98"/>
+<text x="452" y="127" fill="#EADBBE" font-size="25" font-family="serif" text-anchor="middle">天蛇船</text>
+<text x="452" y="154" fill="#CEB481" font-size="12" font-family="sans-serif" letter-spacing="1" text-anchor="middle">SKY ENGINEERING</text>
+<text x="452" y="190" fill="#E6DBCC" font-size="14" text-anchor="middle">古龍遠空工程</text>
+<text x="320" y="270" fill="#C9BEAA" font-size="11" text-anchor="middle">原創歷史概念圖・可替換為遊戲畫面</text></svg>
